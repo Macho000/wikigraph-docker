@@ -9,6 +9,13 @@ This package provides tools to download the [WikiGraphs dataset](https://arxiv.o
 this can spur more interest in developing models that can generate long text
 conditioned on graph and generate graphs given text.
 
+## Set up Docker Environment
+
+```bash
+docker-compose build
+docker-compose up -d
+```
+
 ## Setup Jax environment
 
 [Jax](https://github.com/google/jax#installation),
